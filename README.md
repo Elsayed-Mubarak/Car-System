@@ -1,8 +1,14 @@
 # car-system-backend
-# TO RUN THE Task : 
-1 - npm install
-2 - npm  start
 
+# TO RUN THE Task : 
+----------------------------------------------------------------------------------
+1 - Ectract The Attached File
+2 - git clone https://github.com/Elsayed-Mubarak/car-system.git
+3 - npm install
+4 - npm  start
+
+----------------------------------------------------------------------------------
+# 
 -----------------------------------------------------------------------------------
 # TEST APIs 
 1 - registerCar(name,position,age,brand,model,plateNumber) : -> Method(POST) : http://localhost:5000/api/v1/car
