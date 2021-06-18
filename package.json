@@ -1,0 +1,31 @@
+{
+  "name": "car-system",
+  "version": "1.0.0",
+  "description": "car-system backend ",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 ./test/car/update-name.spec.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "car-system",
+    "sayed"
+  ],
+  "author": "SAYED_MUBARAK",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@meanie/joi-country": "^2.2.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "colors": "^1.4.0",
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "joi": "^17.4.0",
+    "mocha": "^8.4.0",
+    "mongoose": "^5.12.12"
+  }
+}
